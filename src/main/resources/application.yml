@@ -1,0 +1,24 @@
+registrodebancos:
+   bancos:
+     - 
+       name: aplicativocomercial
+       default: true
+       url: jdbc:mysql://localhost:3306/aplicativocomercial?useSSL=false
+       username: root
+       password: root
+       driver-class-name: com.mysql.jdbc.Driver
+     - 
+       name: cliente_01
+       default: false
+       url: jdbc:mysql://localhost:3306/aplicativocomercial_01?useSSL=false
+       username: root
+       password: root
+       driver-class-name: com.mysql.jdbc.Driver    
+     - 
+       name: cliente_02
+       default: false
+       url: jdbc:mysql://localhost:3306/aplicativocomercial_02?useSSL=false
+       username: root
+       password: root
+       driver-class-name: com.mysql.jdbc.Driver    
+       
